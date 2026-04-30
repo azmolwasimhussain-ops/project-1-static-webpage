@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="DecodeLabs Project 1 — A clean static webpage demonstrating proper HTML structure and CSS styling." />
+  <title>DecodeLabs | Project 1</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="page-grid">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title">DecodeLabs</h1>
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home"     
+            class="nav-link">Home</a></li>
+          <li><a href="#about"    class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#contact"  class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <h2 class="hero-heading">Learn. Build. Grow.</h2>
+    <p class="hero-text">
+      Welcome to DecodeLabs — where beginners become builders through
+      hands-on projects and structured learning paths.
+    </p>
+    <a href="#about" class="btn">Get Started</a>
+  </section>
+
+  <main class="main-content">
+
+    <section class="content-section" id="about">
+      <h2 class="section-heading">About Us</h2>
+      <p class="section-text">
+        DecodeLabs is a project-based learning platform designed to help
+        aspiring developers master web development fundamentals through
+        real-world exercises and guided projects.
+      </p>
+      <p class="section-text">
+        Our curriculum follows a structured, hands-on approach — starting from
+        core HTML and CSS concepts and progressing through JavaScript and
+        real project workflows. Every lesson is designed to build practical
+        skills that employers value.
+      </p>
+    </section>
+
+    <section class="content-section" id="services">
+      <h2 class="section-heading">Our Services</h2>
+      <p class="section-text">
+        We offer a range of structured courses to help you build practical
+        skills quickly and confidently.
+      </p>
+
+      <div class="service-grid">
+
+        <article class="service-card">
+          <h3 class="subsection-heading">HTML &amp; CSS Fundamentals</h3>
+          <p class="section-text">
+            Start from the ground up with clean markup, semantic structure,
+            and modern CSS techniques including Grid and Flexbox.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <h3 class="subsection-heading">JavaScript Essentials</h3>
+          <p class="section-text">
+            Understand core programming concepts and DOM manipulation to
+            bring your web pages to life interactively.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <h3 class="subsection-heading">Project-Based Learning</h3>
+          <p class="section-text">
+            Apply your skills through guided projects that simulate real
+            industry workflows and deliverables.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <p class="footer-text">&copy; 2026 DecodeLabs. All rights reserved.</p>
+    <p class="footer-text">
+      Contact us:
+      <a href="mailto:hello@decodelabs.dev" class="footer-link">hello@decodelabs.dev</a>
+    </p>
+  </footer>
+
+</body>
+</html>
